@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: rgb(139, 139, 139);
+        padding: 3px;
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 25px;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    article {
+        background-color: lightgray;
+        padding: 1px;
+    }
+
+    article > aside {
+        background-color: rgb(139, 139, 139);
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+    p {
+        text-align: justify;
+        margin: 10px;
+        text-indent: 15px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Esportes, política e Tecnologia</h2>
+                <h3>Esportes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque aut quaerat adipisci, deleniti doloremque expedita itaque ab voluptas ex, beatae tenetur quam sint hic dolorum ad tempore optio assumenda.</p>
+                <aside>
+                    <p>Artigo escrito por Neymar.</p>
+                </aside>
+                <h3>política</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci minima ex tempora blanditiis dolorum quaerat. Animi voluptatem officia esse, sapiente qui tenetur dolores enim inventore rerum cupiditate odio consequatur magnam!</p>
+                <aside>
+                    <p>Artigo escrito por Xerox Junior.</p>
+                </aside>
+                <h3>Tecnologia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut veniam reiciendis eveniet perferendis odio nesciunt nam ipsam vel ex aliquid, necessitatibus delectus sit enim quisquam voluptatum placeat accusantium blanditiis?</p>
+                <aside>
+                    <p>Artigo escrito por Claytin da Malandragem.</p>
+                </aside>
+            </article>
+            
+        </section>
+        <section id="noticias">
+            <article>
+                 <h2>Notícia sobre o brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita ea illum nostrum exercitationem id blanditiis, deleniti nobis. Suscipit est nisi inventore maxime quasi non aspernatur eveniet? Autem molestias dignissimos ullam.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
