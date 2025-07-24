@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(249, 228, 201);
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
