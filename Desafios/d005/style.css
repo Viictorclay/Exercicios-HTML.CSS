@@ -59,7 +59,10 @@ main > section.imagem {
 }
 
 main > section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.518);
+    background-color: ;
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0.555),
+    rgba(0, 0, 0, 0));
     width: 400px;
     padding-left: 5px;
 
@@ -68,12 +71,14 @@ main > section.imagem > p {
 main > section#img01{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
+    background-attachment: fixed;
     box-shadow: inset 1px 1px 20px 7px rgba(0, 0, 0, 0.286)
 }
 
 main section#img02 {
     background-image: url(imagens/background002.jpg);
     background-size: cover;
+    background-attachment: fixed;
     box-shadow: inset 1px 1px 20px 7px rgba(0, 0, 0, 0.286)
 }
 
